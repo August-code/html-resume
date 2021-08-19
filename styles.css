@@ -1,0 +1,339 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #a9abb8;
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 40px 100px;
+    color: #fff;
+    font-size: 18px;
+}
+
+.grid-container {
+    background-color: #25274d;
+}
+
+.header {
+    padding: 20px 20px;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 100;
+}
+
+.bold {
+    font-weight: 550;
+}
+
+.github {
+    display: flex;
+}
+
+.github a {
+    font-size: 30px;
+    color: #fff;
+}
+
+.github a:hover {
+    color: #f79e02;
+}
+
+.mail {
+    display: flex;
+}
+
+.mail p {
+    font-size: 30px;
+}
+
+.linkedin {
+    display: flex;
+}
+
+.linkedin a {
+    color: #fff;
+    font-size: 30px;
+}
+
+.linkedin a:hover {
+    color: #f79e02;
+}
+
+.main {
+    display: flex;
+}
+
+.main-container {
+    background-color: #fff;
+    color: #25274d;
+    padding: 20px;
+}
+
+.main-container h2 {
+    font-size: 30px;
+}
+
+.main-container ul li{
+    padding: 0;
+    margin: 10px;
+}
+
+.section-container {
+    padding: 100px 20px;
+    color: #00a9f7;
+    font-size: larger;
+}
+
+.section-container h2 {
+    font-size: 45px;
+}
+
+.section-container ul li{
+    margin: 10px;
+    font-size: 20px;
+}
+
+footer {
+    background-color: #25274d;
+    padding: 40px;
+    text-align: center;
+}
+
+.tech h2 {
+    padding-bottom: 15px;
+}
+
+.training {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.training a {
+    text-decoration: none;
+}
+
+.zuri img {
+    height: 100px;
+    width: 100px;
+}
+
+.zuri {
+    display: flex;
+    flex-direction: column;
+}
+
+.ingressive img {
+    height: 100px;
+    width: 400px;
+}
+
+.ingressive {
+    display: flex;
+    flex-direction: column;
+}
+
+.hng img {
+    height: 100px;
+    width: 100px;
+}
+
+.hng {
+    display: flex;
+    flex-direction: column;
+}
+
+.zuri a {
+    color: #fff;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.ingressive a {
+    color: #fff;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.hng a {
+    color: #fff;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+    h1 {
+        font-size: 40px;
+    }
+
+    .mail p {
+        font-size: 25px;
+    }
+
+    .github a {
+        font-size: 25px;
+    }
+
+    .linkedin a {
+        font-size: 25px;
+    }
+
+    body {
+        padding: 40px 50px;
+    }
+
+    .section-container h2 {
+        font-size: 35px;
+    }
+
+    .ingressive img {
+        height: 70px;
+        width: 275px;
+    }
+
+    .hng img {
+        height: 70px;
+        width: 70px;
+    }
+
+    .zuri img {
+        height: 70px;
+        width: 70px;
+    }
+}
+
+@media only screen and (max-width: 540px) {
+    body {
+        padding: 0;
+        font-size: 15px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    .mail p {
+        font-size: 20px;
+    }
+
+    .github a {
+        font-size: 20px;
+    }
+
+    .linkedin a {
+        font-size: 20px;
+    }
+
+    .ingressive img {
+        height: 50px;
+        width: 200px;
+    }
+
+    .hng img {
+        height: 50px;
+        width: 50px;
+    }
+
+    .zuri img {
+        height: 50px;
+        width: 50px;
+    }
+
+    footer {
+    text-align:left;
+    }
+
+    .training {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ingressive {
+        padding-bottom: 15px;
+    }
+
+    .zuri {
+        padding-bottom: 15px;
+    }
+}
+
+@media only screen and (max-width: 411px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        padding: 0;
+        background-color: #25274d;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    .mail p {
+        font-size: 15px;
+    }
+
+    .github a {
+        font-size: 15px;
+    }
+
+    .linkedin a {
+        font-size: 15px;
+    }
+
+    .ingressive img {
+        height: 50px;
+        width: 255px;
+    }
+
+    .hng img {
+        height: 50px;
+        width: 50px;
+    }
+
+    .zuri img {
+        height: 50px;
+        width: 50px;
+    }
+
+}
+
+@media only screen and (max-width: 375px) {
+    .section-container ul li{
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 280px) {
+    .section-container ul li{
+        font-size: 8px;
+    }
+
+    body {
+        font-size: 8px;
+    }
+
+    .section-container h2 {
+        font-size: 30px;
+    }
+
+    .main-container ul li{
+        padding: 0;
+        margin: 3px;
+    }
+
+    .ingressive img {
+        height: 50px;
+        width: 200px;
+    }
+}
